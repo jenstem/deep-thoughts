@@ -1,0 +1,22 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch": "nodemon server --ignore client",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.1616.0",
+        "express": "^4.19.2",
+        "watch": "^1.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.14"
+    }
+}
